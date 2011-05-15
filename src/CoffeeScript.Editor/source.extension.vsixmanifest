@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+    <Identifier Id="CoffeeScript.Editor.AndrewDavey.da7f8fc2-f8ea-4184-8d51-bcf2bd80ea76">
+        <Name>CoffeeScript.Editor</Name>
+        <Author>Andrew Davey</Author>
+        <Version>1.0</Version>
+        <Description xml:space="preserve">Editor syntax highlighting for coffeescript file.</Description>
+        <Locale>1033</Locale>
+        <SupportedProducts>
+            <VisualStudio Version="10.0">
+                <Edition>Ultimate</Edition>
+                <Edition>Premium</Edition>
+                <Edition>Pro</Edition>
+            </VisualStudio>
+        </SupportedProducts>
+        <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    </Identifier>
+    <References />
+    <Content>
+        <MefComponent>|%CurrentProject%|</MefComponent>
+    </Content>
+</Vsix>
